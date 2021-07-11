@@ -1,0 +1,27 @@
+.timer-container{
+    text-align: center;
+}
+
+.clock{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+}
+.clock section p{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.clock span{
+    font-size: 2rem;
+    font-weight: 1000;
+}
